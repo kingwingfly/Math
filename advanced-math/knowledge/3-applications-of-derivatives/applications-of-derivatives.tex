@@ -2,9 +2,9 @@
 % UTF8编码，ctexart现实中文
 \usepackage{xcolor}
 % 使用颜色
-\definecolor{orange}{RGB}{255,127,0} 
-\definecolor{violet}{RGB}{192,0,255} 
-\definecolor{aqua}{RGB}{0,255,255} 
+\definecolor{orange}{RGB}{255,127,0}
+\definecolor{violet}{RGB}{192,0,255}
+\definecolor{aqua}{RGB}{0,255,255}
 \usepackage{geometry}
 \setcounter{tocdepth}{4}
 \setcounter{secnumdepth}{4}
@@ -100,7 +100,7 @@ $\text{罗尔定理}\xrightleftharpoons[\text{特例：}f(a)=f(b)]{\text{泛化�
         \item $f(x)$在$(a,b)$内可导。
         \item $f(a)=f(b)$。
     \end{enumerate}
-    
+
     则$\exists\,\xi\in(a,b)$，使得$f'(\xi)=0$。
 \end{minipage}
 \hfill
@@ -396,7 +396,7 @@ $\therefore$在$(0,+\infty]$上$g(x)>g(0)=0$，即$\sin x>x-\dfrac{x^3}{6}$。
 
 不妨设$x_1<x_2$，且$\dfrac{x_1+x_2}{2}=x_0$。
 
-$f(x_1)+f(x_2)-2(x_0)=[f(x_2)-f(x_0)]-[f(x_1)-f(x_0)]$
+$f(x_1)+f(x_2)-2f(x_0)=[f(x_2)-f(x_0)]-[f(x_1)-f(x_0)]$
 
 $\xRightarrow{\text{拉格朗日中值定理}}=f'(\xi_2)(x_2-x_0)-f'(\xi_1)(x_0-x_1)=\dfrac{x_2-x_1}{2}[f'(\xi_2)-f'(\xi_1)]>0$
 
@@ -501,7 +501,7 @@ $\forall x\in U(x_0,\delta)$恒有$f(x)\leqslant f(x_0)$，则$f(x)$在$x_0$取�
         \filldraw[black](0.95,1.1) node{$y_0$};
         \filldraw[black](0.75,0.35) node{$\Delta x$};
         \filldraw[black](1.1,0.6) node{$\Delta y$};
-    \end{tikzpicture} 
+    \end{tikzpicture}
 \end{minipage}
 \hfill
 \begin{minipage}{0.4\linewidth}
@@ -528,7 +528,7 @@ $\forall x\in U(x_0,\delta)$恒有$f(x)\leqslant f(x_0)$，则$f(x)$在$x_0$取�
         \filldraw[black](0.95,1.1) node{$y_0$};
         \filldraw[black](0.75,0.35) node{$\textrm{d}x$};
         \filldraw[black](1.1,0.6) node{$\textrm{d}y$};
-    \end{tikzpicture} 
+    \end{tikzpicture}
 \end{minipage}
 \hfill
 \begin{minipage}{0.4\linewidth}
@@ -585,7 +585,7 @@ $\forall x\in U(x_0,\delta)$恒有$f(x)\leqslant f(x_0)$，则$f(x)$在$x_0$取�
         \filldraw[black] (0,0) node[below]{$O$};
         \draw[black, thick,domain=-0.1:1.1] plot (\x, \x*\x);
         \draw[densely dashed](0.5,0.25) -- (0.5, 0) node[below]{$x$};
-        \draw[densely dashed](1,1) -- (1, 0) node[below]{$x+\Delta x$}; 
+        \draw[densely dashed](1,1) -- (1, 0) node[below]{$x+\Delta x$};
         \filldraw[black](0.5,0.35) node{$y$};
         \filldraw[black](0.95,1.1) node{$y_0$};
         \filldraw[black] (1/2,1/4) circle (0.5pt);
@@ -595,7 +595,7 @@ $\forall x\in U(x_0,\delta)$恒有$f(x)\leqslant f(x_0)$，则$f(x)$在$x_0$取�
         \draw[line width=0.1] (0.85,0.7) arc (50:0:0.1);
         \filldraw[black](1,0.8) node{$\Delta\alpha$};
         \filldraw[black](0.5,0.8) node{$\vert\wideparen{yy_0}\vert=\Delta s$};
-    \end{tikzpicture} 
+    \end{tikzpicture}
 \end{minipage}
 \hfill
 \begin{minipage}{0.6\linewidth}
@@ -638,7 +638,7 @@ $\therefore \textcolor{aqua}{\textbf{定理：}}k=\left\lvert\dfrac{\textrm{d}\a
         \filldraw[black] (-0.75,0) node{$T$};
         \draw[black, thick,domain=-1:1] plot (\x, \x*\x);
         \draw[black] (0,0.5) circle (0.5);
-    \end{tikzpicture} 
+    \end{tikzpicture}
 \end{minipage}
 
 \end{document}
