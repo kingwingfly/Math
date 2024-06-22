@@ -1,9 +1,9 @@
 \documentclass[UTF8, 12pt]{ctexart}
 \usepackage{xcolor}
 % 使用颜色
-\definecolor{orange}{RGB}{255,127,0} 
-\definecolor{violet}{RGB}{192,0,255} 
-\definecolor{aqua}{RGB}{0,255,255} 
+\definecolor{orange}{RGB}{255,127,0}
+\definecolor{violet}{RGB}{192,0,255}
+\definecolor{aqua}{RGB}{0,255,255}
 \usepackage{geometry}
 \setcounter{tocdepth}{5}
 \setcounter{secnumdepth}{5}
@@ -526,7 +526,7 @@ $\therefore e^{\lim\limits_{x\to 0}\frac{1}{x^2}\ln\frac{\tan x}{x}}=e^{\lim\lim
         过程 & $n\to\infty$ & $x\to\infty$ & $x\to+\infty$ & $x\to-\infty$ \\ \hline
         时刻 & \multicolumn{4}{c|}{$N$} \\ \hline
         从此时刻以后 & $n>N$ & $\vert x\vert>N$ & $x>N$ & $x<-N$ \\ \hline
-        $f(x)$ & \multicolumn{4}{c|}{$\vert f(x)-A\vert<\xi$} \\ 
+        $f(x)$ & \multicolumn{4}{c|}{$\vert f(x)-A\vert<\xi$} \\
         \hline
     \end{tabular}
 \end{center}
@@ -537,7 +537,7 @@ $\therefore e^{\lim\limits_{x\to 0}\frac{1}{x^2}\ln\frac{\tan x}{x}}=e^{\lim\lim
         过程 & $x\to x_0$ & $x\to x_0^+$ & $x\to x_0^-$ \\ \hline
         时刻 & \multicolumn{3}{c|}{$\delta$} \\ \hline
         从此时刻以后 & $0<\vert x-x_0\vert<\delta$ & $0<x-x_0<\delta$ & $-\delta<x-x_0<0$\\ \hline
-        $f(x)$ & \multicolumn{3}{c|}{$\vert f(x)-A\vert<\xi$} \\ 
+        $f(x)$ & \multicolumn{3}{c|}{$\vert f(x)-A\vert<\xi$} \\
         \hline
     \end{tabular}
 \end{center}
@@ -692,7 +692,7 @@ $\Rightarrow A-\xi<f(x)<A+\xi$。
         \end{array}
     \right.$
     \item 若$f(x)\geqslant g(x)$，则$A\geqslant B$。
-    \item 若$y=f[g(x)]$由$y=f(u)$与$u=g(x)$复合而成，且$\lim\limits_{x\to x_0}g(x)=u_0$且$\lim\limits_{u\to u_0}f(u)=a$，当$x\in\mathring{U}(x_0,\delta_0)$时，$g(x)\neq u_0$，则$\lim\limits_{x\to x_0}f[g(x)]=a$。 
+    \item 若$y=f[g(x)]$由$y=f(u)$与$u=g(x)$复合而成，且$\lim\limits_{x\to x_0}g(x)=u_0$且$\lim\limits_{u\to u_0}f(u)=a$，当$x\in\mathring{U}(x_0,\delta_0)$时，$g(x)\neq u_0$，则$\lim\limits_{x\to x_0}f[g(x)]=a$。
 \end{enumerate}
 
 对于结论7必须\textcolor{orange}{注意}$g(x)\neq u_0$。
@@ -1202,7 +1202,7 @@ $\lim\limits_{x\to 0}f(x)=\lim\limits_{x\to 0}\ln\vert x\vert\cdot\sin x=\lim\li
 
 \textbf{例题：}证明方程$x=a\sin x+b(a>0,b>0)$中至少有一个正根，并且不超过$a+b$。
 
-证明：令$f(x)=x-a\sin x-b$，其中$f(0)=-b<0$，$f(a+b)=a+b=a\sin(a+b)-b=a[1-\sin(a+b)]\geqslant 0$。
+证明：令$f(x)=x-a\sin x-b$，其中$f(0)=-b<0$，$f(a+b)=a+b-a\sin(a+b)-b=a[1-\sin(a+b)]\geqslant 0$。
 
 若$\sin(a+b)=1$，则根为$a$，结论成立。
 
